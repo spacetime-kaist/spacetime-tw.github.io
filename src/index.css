@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Tenada';
+    src: url('/src/assets/fonts/TENADA_font/Tenada.ttf');
+}
+@theme {
+    --font-display: 'Tenada', sans-serif;
+
+}
+
+/* For whole page and sections */
+.page {
+    @apply max-w-[96rem] mx-auto px-6;
+}
+
+.container {
+    @apply max-w-[96rem] mx-auto px-6;
+}
+
+.divider {
+    @apply my-10 border-t border-gray-300;
+}
